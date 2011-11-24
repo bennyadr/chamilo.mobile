@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="pacote.appchamilomobile"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+        <activity android:name="AppChamiloMobile" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="CaixaEntrada" android:label="Caixa de Entrada">
+	    	 <intent-filter>
+		         <action android:name="abrir_tela" />
+		         <category android:name="android.intent.category.DEFAULT" />
+		    	 <category android:name="caixa_entrada" />
+	   	    </intent-filter>
+		</activity>
+	
+    <activity android:name="GerenciarPortal" android:label="Gerenciar Portal">
+        <intent-filter>
+        	 <action android:name="abrir_portal" />
+	         <category android:name="android.intent.category.DEFAULT" />
+	    	 <category android:name="gerenciar_portal" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="ItensEnviados" android:label="Itens Enviados">
+        <intent-filter>
+        	 <action android:name="abrir_itens_enviados" />
+	         <category android:name="android.intent.category.DEFAULT" />
+	    	 <category android:name="itens_enviados" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="EscreverMensagem" android:label="Escrever Mensagem">
+        <intent-filter>
+        	 <action android:name="abrir_escrever" />
+	         <category android:name="android.intent.category.DEFAULT" />
+	    	 <category android:name="escrever_mensagem" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="Cadastro" android:label ="Cadastrar Portal">
+        <intent-filter>
+        	<action android:name="abrir_cadastro" />
+	    	<category android:name="android.intent.category.DEFAULT" />
+	    	<category android:name="cadastrar_portal" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="MostraPortal" android:label="Mostrar Portal">
+        <intent-filter>
+        	<action android:name="abrir_mostra_portal" />
+	    	<category android:name="android.intent.category.DEFAULT" />
+	    	<category android:name="mostra_portal" />
+        </intent-filter>
+    </activity>
+    <activity android:name="Anuncios" android:label="Anuncios">
+        <intent-filter>
+        	<action android:name="abrir_anuncios" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_anuncios" />
+        </intent-filter>
+    </activity>
+    <activity android:name="RedeSocial" android:label="Rede Social">
+        <intent-filter>
+        	<action android:name="abrir_redesocial" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_redesocial" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="Foruns" android:label="Fóruns">
+        <intent-filter>
+        	<action android:name="abrir_foruns" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_foruns" />
+        </intent-filter>
+    </activity>
+    <activity android:name="ForumGeral" android:label="Forum Geral">
+        <intent-filter>
+        	<action android:name="abrir_forumgeral" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_forumgeral" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="AdicionarContato" android:label="Adicionar Contato">
+        <intent-filter>
+        	<action android:name="abrir_adicionarcontato" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_adicionarcontato" />
+        </intent-filter>
+    </activity>
+    <activity android:name="ContatoSelecionado" android:label="Contato Selecionado">
+        <intent-filter>
+        	<action android:name="abrir_contatoselecionado" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_contatoselecionado" />
+        </intent-filter>
+    </activity>
+    <activity android:name="EnviarConvite" android:label="Enviar Convite">
+        <intent-filter>
+        	<action android:name="abrir_enviarconvite" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_enviarconvite" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="ListaAnuncios" android:label="Lista Anuncios">
+        <intent-filter>
+        	<action android:name="abrir_listaanuncio" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_listaanuncio" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="Anuncio" android:label="Anuncio">
+        <intent-filter>
+        	<action android:name="abrir_anuncio" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_anuncio" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="ListaForuns" android:label="Lista de Foruns">
+        <intent-filter>
+            <action android:name="abrir_listaforum" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_listaforum" />
+        </intent-filter>
+    </activity>
+    
+    <activity android:name="TopicoForum" android:label="Topicos do Forum">
+        <intent-filter>
+            <action android:name="abrir_topicoforum" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_topicoforum" />
+        </intent-filter>
+    </activity>
+    <activity android:name="Discussao" android:label="Discussao do Topico">
+        <intent-filter>
+            <action android:name="abrir_discussaotopico" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_discussaotopico" />
+        </intent-filter>
+    </activity>
+    <activity android:name="ResponderDiscussao" android:label="Responder Discussao">
+        <intent-filter>
+            <action android:name="abrir_responderdiscussao" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_responderdiscussao" />
+        </intent-filter>
+    </activity>
+    <activity android:name="Pesquisar" android:label="Pesquisar">
+        <intent-filter>
+        	<action android:name="abrir_pesquisar" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_pesquisar" />
+        </intent-filter>
+    </activity>
+    <activity android:name="LerMensagem" android:label="Ler Mensagem">
+        <intent-filter>
+        	<action android:name="abrir_lermensagem" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_lermensagem" />
+        </intent-filter>
+    </activity>
+    <activity android:name="LerMensagemEnviada" android:label="Ler Mensagem Enviada">
+        <intent-filter>
+        	<action android:name="abrir_lermensagemenviada" />
+        	<category android:name="android.intent.category.DEFAULT" />
+        	<category android:name="mostra_lermensagemenviada" />
+        </intent-filter>
+    </activity>
+	
+    </application>
+</manifest>

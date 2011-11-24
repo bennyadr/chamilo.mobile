@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:background="#ffffff">
+	
+	<TextView android:text="" 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"/>
+
+	<TextView
+	android:text="Gerenciar Portal" 
+	android:textSize="20sp" 
+	android:textStyle="bold"
+	android:textColor="#000000"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:fitsSystemWindows="true" 
+	android:gravity="center"/>
+	
+	<TextView android:text="" 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"/>
+	
+	<LinearLayout
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+
+		<Button 
+		android:layout_height="wrap_content" 
+		android:id="@+id/btnCadastro" 
+		android:text="Cadastrar Portal" 
+		android:layout_width="150px" 
+		android:gravity="center"
+		android:fitsSystemWindows="true"/>
+
+		<Button 
+		android:text="Mostrar Portal" 
+		android:id="@+id/btnMostrar" 
+		android:gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="150px"
+		android:fitsSystemWindows="true"/>
+		
+		<Button
+	    android:layout_width="150px" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/btnVoltar" 
+	    android:text="Sair"
+	    android:gravity="center"
+	    android:fitsSystemWindows="true"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

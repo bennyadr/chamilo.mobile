@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:background="#ffffff">
+  
+    <ScrollView 
+    android:layout_width="fill_parent" 
+    android:id="@+id/scrollView1" 
+    android:layout_height="wrap_content">
+        
+	<LinearLayout
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent">
+			
+				<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" 
+						android:baselineAligned="true" 
+						android:gravity="left">
+						
+						<ImageView 
+							android:layout_width="wrap_content" 
+							android:id="@+id/img1" 
+							android:src="@drawable/images" 
+							android:layout_height="wrap_content">
+						</ImageView>
+						
+				        <TextView
+					      	android:layout_width="wrap_content"
+					      	android:layout_height="wrap_content" 
+					      	android:textColor="#000000"
+					      	android:text="Contato 1"
+					      	android:textSize="22dp"
+					      	android:textStyle="bold"
+					      	android:layout_gravity="center_horizontal"/>
+					 
+				 </LinearLayout>
+	        
+				 <LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" 
+						android:baselineAligned="true" 
+						android:gravity="left">	
+					
+						<TextView
+							android:id="@+id/tvMenu" 
+					      	android:layout_width="wrap_content"
+					      	android:layout_height="wrap_content" 
+					      	android:textColor="#000000"
+					      	android:text="Menu"
+					      	android:textSize="20dp"
+					      	android:textStyle="bold" 
+					      	android:gravity="left"/>   	
+						
+			     </LinearLayout>
+		
+				 <LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" 
+						android:baselineAligned="true" 
+						android:gravity="left">	
+					
+						<TextView 
+							android:text="Enviar Mensagem" 
+							android:id="@+id/tvEnviarMensagem" 
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content"
+							android:textSize="20dp"
+					      	android:textColor="#000000"
+					      	android:gravity="left">
+						</TextView>
+						
+				</LinearLayout>
+				
+				<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content" 
+						android:baselineAligned="true" 
+						android:gravity="left">	
+					
+						<TextView 
+							android:text="Enviar Convite" 
+							android:id="@+id/tvEnviarConvite" 
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content"
+							android:textSize="18dp"
+					      	android:textColor="#000000"
+					      	android:gravity="left">
+						</TextView>
+						
+				</LinearLayout>
+	
+	</LinearLayout>
+	
+	</ScrollView>
+    
+
+</LinearLayout>
+

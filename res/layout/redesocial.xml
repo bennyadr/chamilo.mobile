@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:background="#ff7f2a">
+	
+	<LinearLayout
+      android:id="@+id/LinearLayout"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="#ffffff">
+      
+		<ImageView
+		android:id="@+id/imagem"
+		android:src="@drawable/personal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:fitsSystemWindows="true" 
+		android:gravity="center"/>
+	
+		<TextView
+		android:text="Rede Social" 
+		android:textSize="25sp" 
+		android:textStyle="bold"
+		android:textColor="#000000"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:fitsSystemWindows="true" 
+		android:gravity="center"/>
+		
+		<TextView 
+		android:text="Buscar (Usuários ou Grupos):" 
+		android:id="@+id/tvBusca" 
+		android:textColor="#000000"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		</TextView>
+		
+		<AutoCompleteTextView 
+		android:id="@+id/etBusca" 
+		android:text="" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		</AutoCompleteTextView>
+		
+		<Button 
+		android:text="Buscar por Nome" 
+		android:id="@+id/btnBusca" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal">
+		</Button>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+      android:id="@+id/LinearLayout"
+      android:background="#ff7f2a"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      	
+		<ListView 
+		android:layout_height="wrap_content" 
+		android:id="@+id/lvBuscaContato" 
+		android:layout_width="fill_parent"
+		android:background="#ff7f2a">
+		</ListView>
+		
+	</LinearLayout>
+
+</LinearLayout>
+

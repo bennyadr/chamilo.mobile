@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:background="#ffffff">
+	
+	<ImageView
+	android:id="@+id/imagem"
+	android:src="@drawable/mr_dokeos"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:fitsSystemWindows="true" 
+	android:gravity="center"/>
+
+	<TextView
+	android:text="Anúncios" 
+	android:textSize="25sp" 
+	android:textStyle="bold"
+	android:textColor="#000000"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:fitsSystemWindows="true" 
+	android:gravity="center"/>
+
+	
+		<LinearLayout
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent">
+			 
+			<TextView 
+			android:text="Selecione a disciplina:" 
+			android:id="@+id/tvDisciplinaA" 
+			android:textColor="#000000"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+			</TextView>
+			
+			<Spinner 
+			android:layout_height="wrap_content" 
+			android:id="@+id/spinnerAnuncios" 
+			android:layout_width="fill_parent" />
+			
+		    <TextView android:text="" 
+			android:id="@+id/tvIDAnuncios" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+
+			<Button 
+			android:text="Acessar Anúncios" 
+			android:id="@+id/btAcessar" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+			</Button>
+			
+		</LinearLayout>
+	
+
+
+</LinearLayout>
+

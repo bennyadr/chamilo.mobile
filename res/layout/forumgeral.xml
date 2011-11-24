@@ -1,0 +1,22 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:stretchColumns="1"
+>
+	<TextView android:text="Forum Geral da Disciplina"  />
+	
+	<View android:layout_height="2dip" android:background="#FF909090" />
+	<TableRow>
+		<TextView android:text="Ponteiros"  />
+		<TextView android:text="02/03/2011"   android:layout_gravity="right" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Structs"  />
+		<TextView android:text="05/03/2011"  android:layout_gravity="right" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Funções"  />
+		<TextView android:text="08/03/2011" android:layout_gravity="right"  />
+	</TableRow>
+	
+	
+</TableLayout>

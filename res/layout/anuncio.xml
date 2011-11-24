@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/LinearLayout"
+android:background="#ffffff" android:orientation="vertical"> 
+
+<LinearLayout
+android:orientation="vertical"
+android:gravity="left"
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent">
+		
+		<TextView android:text="" 
+		android:id="@+id/tvTitleAnuncio" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="#000000"
+		android:textSize="15sp"
+		android:textStyle="bold"/>
+
+	    <TextView android:text="" 
+		android:id="@+id/tvSenderAnuncio" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+
+		<TextView android:text="" 
+		android:id="@+id/tvDateAnuncio" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/> 	
+
+		<TextView android:text="" 
+		android:id="@+id/textView1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		</TextView>
+
+		<TextView android:text="" 
+		android:id="@+id/tvContentAnuncio" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+		
+
+    </LinearLayout>
+
+</LinearLayout>

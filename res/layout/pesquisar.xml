@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/LinearLayout"
+android:background="#ffffff"> 
+      
+    <ScrollView
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+      <LinearLayout
+      android:id="@+id/LinearLayout"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+  
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="20px">
+        
+        <ImageView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:src="@drawable/search2" 
+        android:id="@+id/imageView1"
+		android:fitsSystemWindows="true" 
+		android:gravity="center">
+        </ImageView>
+        
+        </LinearLayout>
+  
+	        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000"
+	        android:text="Digite o nome do remetente: "/>
+	  
+	        <EditText android:id ="@+cad/enviar"
+	        android:text=""
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"/>
+  
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="20px"/>
+        
+      </LinearLayout>
+      
+      </ScrollView>
+  
+	  <LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" 
+	  android:baselineAligned="true" 
+	  android:gravity="center">
+	    
+	    <Button
+	    android:text="Localizar"
+	    android:layout_height="50px" 
+	    android:layout_width="120px" 
+	    android:id="@+cadastro/btnEnviarConvite"/>
+	    
+	    <Button
+	    android:layout_width="120px" 
+	    android:layout_height="50px" 
+	    android:id="@+cadastro/btnSair" 
+	    android:text="Sair"/>
+	  
+	  </LinearLayout>
+</LinearLayout>

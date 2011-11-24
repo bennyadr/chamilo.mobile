@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/LinearLayout"
+android:background="#ffffff"> 
+      
+    <ScrollView
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+      <LinearLayout
+      android:id="@+id/LinearLayout"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+  
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="20px"/>
+  
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Enviar para:"/>
+  
+        <EditText android:id ="@+cad/remetente"
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+  
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textColor="#000000"
+        android:text="Titulo:"/>
+  
+        <EditText 
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+cad/titulo"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textColor="#000000"
+        android:text="Mensagem:"/>
+  
+        <EditText 
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+cad/conteudo"/>
+  
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="20px"/>
+        
+      </LinearLayout>
+    </ScrollView>
+  
+  <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  android:baselineAligned="true" 
+  android:gravity="center">
+    
+    <Button
+    android:text="Enviar"
+    android:layout_height="50px" 
+    android:layout_width="120px" 
+    android:id="@+cadastro/btnEnviar"/>
+    
+    <Button
+    android:text="Cancelar"
+    android:layout_width="120px" 
+    android:layout_height="50px" 
+    android:id="@+cadastro/btnSair"/>
+  
+  </LinearLayout>
+</LinearLayout>
